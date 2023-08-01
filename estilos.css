@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(183, 202, 188);
+
+}
+
+h1{
+    font-family:Impact;
+    font-weight:lighter;
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 8px;
+    color: rgb(70, 180, 103)
+}
+
+h2{
+    font-family:Impact;
+    font-weight:lighter;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(70, 180, 103)
+}
+
+div.info table{
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+td, th {
+  padding: 25px; /* Agrega un espacio alrededor del texto en las celdas */
+}
+
+a {
+    color: rgb(51, 136, 89)
+  }
+  
+  a:hover {
+    color: rgb(70, 180, 103);
+  }
+
+  .image-container {
+    display: flex; /* Esto permite que la imagen y el texto se muestren en línea */
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    margin-bottom: 20px; /* Espacio entre cada conjunto de imagen y texto */
+  }
+
+  .image-container img {
+    width: 600px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Esto asegura que la altura se ajuste proporcionalmente al ancho */
+    margin-right: auto; /* Espacio entre la imagen y el texto */
+    margin-left: 150px;
+  }
+
+  .image-container p {
+    margin-left: 0;
+    padding: 200px; /* espacio alrededor del texto */
+    text-align: left;
+  }
+
+  #casa{
+    color: #2e6650;
+    font-size: 20px;
+  }
+
+  #estudio{
+    color: #19503a;
+    font-size: 20px;
+  }
+
+  form {
+    font-family: Arial, sans-serif;
+    background-color: #2e6650;
+    padding: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 5%;
+  }
+
+  .quote p{
+    color: rgb(94, 179, 120);
+    padding: 15px;
+    font-size: 50px;
+  }
